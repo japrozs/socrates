@@ -1,0 +1,5 @@
+query getCourse($id: String!) {
+    getCourse(id: $id) {
+        ...RegularCourse
+    }
+}

@@ -1,0 +1,8 @@
+fragment RegularCourse on Course {
+    id
+    name
+    creatorId
+    createdAt
+    updatedAt
+    __typename
+}

@@ -1,0 +1,11 @@
+fragment RegularUser on User {
+    id
+    name
+    email
+    courses {
+        ...RegularCourse
+    }
+    createdAt
+    updatedAt
+    __typename
+}
