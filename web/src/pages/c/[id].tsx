@@ -21,6 +21,11 @@ const CoursePage: React.FC<CoursePageProps> = ({}) => {
             <AppSidebar />
             {data && !loading ? (
                 <main className="p-24">
+                    {/* <img
+                        className="h-56 w-full object-cover border-b border-gray-200"
+                        src="https://images.pexels.com/photos/159862/art-school-of-athens-raphael-italian-painter-fresco-159862.jpeg"
+                    /> */}
+                    {/* <div className="px-24 py-10"> */}
                     <p className="text-6xl gara font-normal">
                         {data.getCourse.name}
                     </p>
